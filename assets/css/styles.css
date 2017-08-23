@@ -1,0 +1,9 @@
+.card-columns {
+  @include media-breakpoint-only(md) {
+    column-count: 2;
+  }
+ 
+}
+.row {
+	margin-top: 3%;
+}
