@@ -14,29 +14,36 @@
 
 	<!-- 	header -->
 	<div class="card-deck">
+	<h1 class="init-choose"> Choose your Character</h1>
 		<div class="row choose-character">
-			<div class="card text-center">
+			<div class="card text-center choose" character="luke" data-health="100">
 				    <img class="card-img-top" src="assets/images/luke_skywalker.png" alt="Card image cap">
 				    <div class="card-block">
 				      <h4 class="card-title">Luke Skywalker</h4>
 				      <p class="card-text body">Health: </p>
 				    </div>
-				  </div><div class="card text-center">
-				    <img class="card-img-top" src="assets/images/luke_skywalker.png" alt="Card image cap">
+				  </div>
+
+				  <div class="card text-center choose" character="darth" data-health="100">
+				    <img class="card-img-top" src="assets/images/darth_vader.jpg" alt="Card image cap">
 				    <div class="card-block">
-				      <h4 class="card-title">Luke Skywalker</h4>
+				      <h4 class="card-title">Darth Vader</h4>
 				      <p class="card-text body">Health: </p>
 				    </div>
-				  </div><div class="card text-center">
-				    <img class="card-img-top" src="assets/images/luke_skywalker.png" alt="Card image cap">
+				</div>
+
+				  <div class="card text-center choose" character="han" data-health="100">
+				    <img class="card-img-top" src="assets/images/han_solo2.jpg" alt="Card image cap">
 				    <div class="card-block">
-				      <h4 class="card-title">Luke Skywalker</h4>
+				      <h4 class="card-title">Han Solo</h4>
 				      <p class="card-text body">Health: </p>
 				    </div>
-				  </div><div class="card text-center">
-				    <img class="card-img-top" src="assets/images/luke_skywalker.png" alt="Card image cap">
+				   </div>
+	
+				  <div class="card text-center choose" character="boba" data-health="100">
+				    <img class="card-img-top" src="assets/images/boba_fett.jpeg" alt="Card image cap">
 				    <div class="card-block">
-				      <h4 class="card-title">Luke Skywalker</h4>
+				      <h4 class="card-title">Boba Fett</h4>
 				      <p class="card-text body">Health: </p>
 				    </div>
 				  </div>
@@ -45,47 +52,23 @@
 		<!-- main body	 -->
 		<!-- 	<div class="row"> -->
 				<div class="card-deck">
-			<!-- 	Player card -->
-			<div class="row">
-				  <div class="card text-center">
-				    <img class="card-img-top" src="assets/images/luke_skywalker.png" alt="Card image cap">
-				    <div class="card-block">
-				      <h4 class="card-title">Luke Skywalker</h4>
-				      <p class="card-text body">Health: </p>
-				    </div>
-				  </div>
+			<!-- 	Battle  -->
+			<div class="row battle">
+				<div class='battle-enemy'>
+				</div>
+				  
 			</div>
-			<div class="row">
-				  <div class="card text-center">
-				    <img class="card-img-top" src="assets/images/darth_vader.jpg" alt="Card image cap">
-				    <div class="card-block">
-				      <h4 class="card-title">Darth Vader</h4>
-				      <p class="card-text body">Health: </p>
-				    </div>
-				  </div>
+			
+			<div class="row enemies">
 
-				  <div class="card text-center">
-				    <img class="card-img-top" src="assets/images/han_solo2.jpg" alt="Card image cap">
-				    <div class="card-block">
-				      <h4 class="card-title">Han Solo</h4>
-				      <p class="card-text body">Health: </p>
-				    </div>
-				   </div>
-
-				  <div class="card text-center">
-				    <img class="card-img-top" src="assets/images/boba_fett.jpeg" alt="Card image cap">
-				    <div class="card-block">
-				      <h4 class="card-title">Boba Fett</h4>
-				      <p class="card-text body">Health: </p>
-				    </div>
-				  </div>
+				  
 			</div>
 
 
  <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-   <!--  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="assets/js/vendor/holder.min.js"></script>
@@ -93,7 +76,8 @@
       $(function () {
         Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
       });
-    </script> -->
+    </script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/game.js"></script>
 </body>
 </html>
